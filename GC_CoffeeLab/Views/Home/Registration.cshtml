@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "Registration";
+}
+
+<h2>Please fill in the form to register!</h2>
+
+    
+<form action="/Home/Welcome">
+    <input type="text" name="first" placeholder="First Name" /> <br />
+    <input type="text" name="last" placeholder="Last Name" /> <br />
+    <input type="number" name="phone" placeholder="Phone Number" /> <br />
+    <input type="text" name="email" placeholder="Email" /> <br />
+    <input type="text" name="password" placeholder="Password" /> <br />
+    <input type="submit" value="Submit" />
+
+
+
+    @*<label for="last">Last Name</label>
+        <input type="text" name="last" /><br />
+        <label for="phone">Phone Number</label>
+        <input type="number" name="phone" /><br />
+        <label for="email">Email</label>
+        <input type="text" name="email" /><br />
+        <label for="password">Password</label>
+        <input type="text" name="password" /><br />
+        <input type="submit" value="Submit" />*@
+
+    @*<input type="text" first="input" placeholder="First Name" /> <br />
+        <input type="text" last="input" placeholder="Last Name" /> <br />
+        <input type="number" phone="input" placeholder="Phone Number" /> <br />
+        <input type="text" email="input" placeholder="Email" /> <br />
+        <input type="text" password="input" placeholder="Password" /> <br />
+        <input type="submit" value="Submit" />*@
+
+
+</form>
+
+<h1>@ViewBag.data</h1>
+
