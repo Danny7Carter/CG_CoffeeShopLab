@@ -6,35 +6,54 @@
 <h2>Please fill in the form to register!</h2>
 
     
-<form action="/Home/Welcome">
+<form action="/Home/Welcome" onsubmit="checkForm()">
     <input type="text" name="first" placeholder="First Name" /> <br />
     <input type="text" name="last" placeholder="Last Name" /> <br />
+            <p>What hand do you sign checks with?:</p>
+            Left Hand <input type="radio" id="myRadio">
+            Right Hand: <input type="radio" id="myRadio"><br />
+            Ambidextrous: <input type="radio" id="myRadio"><br /><br />
     <input type="number" name="phone" placeholder="Phone Number" /> <br />
     <input type="text" name="email" placeholder="Email" /> <br />
     <input type="text" name="password" placeholder="Password" /> <br />
-    <input type="submit" value="Submit" />
+    <input type="text" name="country" placeholder="Country" /> <br />
+    <input type="number" name="age" placeholder="Age" /> <br />
+    <input type="submit" value="Submit" class="btn btn-primary" onclick="checkForm()" />
 
 
-
-    @*<label for="last">Last Name</label>
-        <input type="text" name="last" /><br />
-        <label for="phone">Phone Number</label>
-        <input type="number" name="phone" /><br />
-        <label for="email">Email</label>
-        <input type="text" name="email" /><br />
-        <label for="password">Password</label>
-        <input type="text" name="password" /><br />
-        <input type="submit" value="Submit" />*@
-
-    @*<input type="text" first="input" placeholder="First Name" /> <br />
-        <input type="text" last="input" placeholder="Last Name" /> <br />
-        <input type="number" phone="input" placeholder="Phone Number" /> <br />
-        <input type="text" email="input" placeholder="Email" /> <br />
-        <input type="text" password="input" placeholder="Password" /> <br />
-        <input type="submit" value="Submit" />*@
 
 
 </form>
+
+<script>
+    Console.WriteLine("This is not a valid phone number. Please try again.");
+    function validPhoneNum() {
+        var validnumber = /^\d{10}$/;
+        if ((phoneNumber.value.match(validnumber)))
+        {
+            return true;
+        }
+        else
+        {
+            alert("");
+            return false;
+        }
+    }
+</script>
+
+<script>
+    Console.WriteLine("This is not a valid age. Please try again.");
+    function validAge() {
+        var validage = /^\d{2}$/;
+        if ((phoneNumber.value.match(validage))) {
+            return true;
+        }
+        else {
+            alert("");
+            return false;
+        }
+    }
+</script>
 
 <h1>@ViewBag.data</h1>
 

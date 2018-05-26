@@ -34,8 +34,8 @@ namespace GC_CoffeeLab.Controllers
             return View();
         }
 
-        public ActionResult Welcome(string first = "First", string last = "Last", int phone = 111-222-3333, 
-                                    string email = "email@whatever.com", string password = "demc359")
+        public ActionResult Welcome(string first = "First", string last = "Last", int phone = 111-222-3333, string email = "email@whatever.com", 
+                                    string password = "demc359", string country = "United States", int age = 11/22/1234)
         {
             //ActionResult
             ViewBag.data = first;
@@ -43,6 +43,8 @@ namespace GC_CoffeeLab.Controllers
             ViewBag.phone = phone;
             ViewBag.email = email;
             ViewBag.password = password;
+            ViewBag.country = country;
+            ViewBag.birthday = age;
             return View();
         }
     }
