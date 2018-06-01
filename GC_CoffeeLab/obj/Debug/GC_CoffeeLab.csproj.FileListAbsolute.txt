@@ -89,3 +89,7 @@ c:\users\carte\source\repos\GC_CoffeeLab\GC_CoffeeLab\obj\Debug\GC_CoffeeLab.csp
 c:\users\carte\source\repos\GC_CoffeeLab\GC_CoffeeLab\obj\Debug\GC_CoffeeLab.csproj.CopyComplete
 c:\users\carte\source\repos\GC_CoffeeLab\GC_CoffeeLab\obj\Debug\GC_CoffeeLab.dll
 c:\users\carte\source\repos\GC_CoffeeLab\GC_CoffeeLab\obj\Debug\GC_CoffeeLab.pdb
+C:\Users\CARTE\source\repos\GC_CoffeeLab\GC_CoffeeLab\bin\EntityFramework.dll
+C:\Users\CARTE\source\repos\GC_CoffeeLab\GC_CoffeeLab\bin\EntityFramework.SqlServer.dll
+C:\Users\CARTE\source\repos\GC_CoffeeLab\GC_CoffeeLab\bin\EntityFramework.xml
+C:\Users\CARTE\source\repos\GC_CoffeeLab\GC_CoffeeLab\bin\EntityFramework.SqlServer.xml
